@@ -1,0 +1,38 @@
+.sec1{
+border: 2px solid rgb(0, 0, 0);
+height: 100%;
+}
+.div-box{
+    display: flex;
+}
+.box{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 10px;
+    font-weight: 700 ;
+
+}
+
+
+.box:first-child{
+    background-color: coral;
+}
+.box:nth-child(2){
+    background-color: chartreuse;
+}
+.box:nth-child(3){
+    background-color: rgb(151, 8, 144);
+}
+.box:nth-child(4){
+    background-color: rgb(21, 62, 199);
+}
+.box:nth-child(5){
+    background-color: rgb(185, 69, 40);
+}
+h1{
+    text-align: center;
+}
